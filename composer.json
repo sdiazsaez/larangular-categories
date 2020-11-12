@@ -1,0 +1,33 @@
+{
+    "name": "larangular/categories",
+    "description": "morphable categories",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simon Diaz",
+            "email": "sdiaz.sz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "illuminate/support": "~5.8.0|^6.0|^7.0|^8.0",
+        "larangular/support": "^0.2.0",
+        "larangular/installable": "^0.2.0",
+        "larangular/migration-package": "^0.1.0|^0.2.0",
+        "larangular/routing-controller": "^0.1.0|^0.2.0",
+        "kalnoy/nestedset": "^5.0",
+        "spatie/laravel-sluggable": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Larangular\\Categories\\": "./src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CategoriesServiceProvider"
+            ]
+        }
+    }
+}
