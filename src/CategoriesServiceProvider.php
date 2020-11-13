@@ -52,7 +52,7 @@ class CategoriesServiceProvider extends ServiceProvider implements HasInstallabl
         ]);
 
         $this->declareMigration([
-            'name'      => 'categorizable',
+            'name'      => 'categorizables',
             'timestamp' => true,
         ]);
     }
